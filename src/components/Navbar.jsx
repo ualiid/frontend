@@ -10,10 +10,10 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-      <h1 className='w-full text-3xl font-bold text-[#00df9a]'>
+      <h1 className='w-full cursor-pointer text-3xl font-bold text-[#00df9a]'>
         MATH & CODE.
       </h1>
-      <ul className='hidden md:flex'>
+      <ul className='hidden cursor-pointer md:flex'>
         <li className='p-4'>Fibonacci</li>
         <li className='p-4'>Prime Numbers</li>
         <li className='p-4'>Pythagorean Theorem</li>

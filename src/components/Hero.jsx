@@ -17,7 +17,7 @@ const Hero = () => {
           </p>
           <Typed
             className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
-            strings={['299,792,458 m/s', '3.00 x 10^8 m/s']}
+            strings={['3.00 x 10^8 m/s']}
             typeSpeed={120}
             backSpeed={140}
             loop
