@@ -35,7 +35,7 @@ const Footer = () => {
           <FaLaptopCode size={30} />
         </div>
       </div>
-      <div className='lg:col-span-2 flex justify-between mt-6'>
+      <div className='lg:col-span-2 flex justify-between gap-2 mt-6'>
         {footerSections.map((section, index) => (
           <div key={index}>
             <h6 className='font-medium text-gray-400'>{section.title}</h6>
