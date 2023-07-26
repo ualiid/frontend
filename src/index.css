@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=NTR&family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=NTR&family=Poppins:ital,wght@1,200&display=swap');
 
 body {
   background-color: #000300;
-  font-family: NTR;
+  font-family: Exo;
 }
