@@ -6,11 +6,11 @@ const Newsletter = () => {
       <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4'>
         <div className='lg:col-span-2 my-4'>
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
-            Get the Latest Updates in Your Inbox!
+            Stay Informed About Math and Code!
           </h1>
           <p className='text-lg'>
-            Sign up for our newsletter and stay informed about the latest tips, tricks, and news to
-            optimize your workflow.
+            Sign up for our newsletter and receive the latest updates, tips, and tricks about math
+            and coding to enhance your skills and knowledge.
           </p>
         </div>
         <div className='my-4'>
@@ -25,7 +25,7 @@ const Newsletter = () => {
             </button>
           </div>
           <p className='text-sm'>
-            We care about the protection of your data. Read our{' '}
+            We value your privacy and data security. Please review our{' '}
             <a
               href='#'
               className='text-[#00df9a] hover:underline'
@@ -33,8 +33,8 @@ const Newsletter = () => {
               rel='noopener noreferrer'
             >
               Privacy Policy
-            </a>
-            .
+            </a>{' '}
+            for more information.
           </p>
         </div>
       </div>
